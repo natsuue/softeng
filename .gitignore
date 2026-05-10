@@ -1,0 +1,23 @@
+# Sensitive config — never commit real credentials
+config.php
+
+# ML model binary (large file)
+ML model/*.pkl
+ML model/*.csv
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+.env
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE files
+.vscode/
+.idea/
+*.suo
+*.user

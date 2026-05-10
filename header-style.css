@@ -1,0 +1,33 @@
+/* ============================================================
+   CognitiveAI — Header / Navbar Styles
+   ============================================================ */
+
+.cog-header {
+    background: #fff !important;
+    border-bottom: 1px solid #e9ecef;
+    height: 64px;
+    display: flex;
+    align-items: center;
+}
+
+.cog-header .navbar-brand {
+    font-size: 1.1rem;
+    font-weight: 800;
+    letter-spacing: -0.5px;
+    color: #333 !important;
+}
+
+.cog-header .nav-link {
+    font-size: 0.88rem;
+    font-weight: 500;
+    color: #555 !important;
+    padding: 6px 10px;
+    border-radius: 6px;
+    transition: background 0.15s, color 0.15s;
+}
+
+.cog-header .nav-link:hover,
+.cog-header .nav-link.active {
+    background-color: #f0f4ff;
+    color: #0d6efd !important;
+}

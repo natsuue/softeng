@@ -1,0 +1,23 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python -c \"import docx; print\\('python-docx OK'\\)\")",
+      "PowerShell(python --version; python -c \"import docx; print\\('python-docx OK'\\)\" 2>&1)",
+      "PowerShell(py *)",
+      "Bash(python -c \"import PyPDF2; print\\('PyPDF2 available'\\)\")",
+      "Bash(python -c \"import pypdf; print\\('pypdf available'\\)\")",
+      "Bash(python -c \"import pdfplumber; print\\('pdfplumber available'\\)\")",
+      "PowerShell(Get-ChildItem C:/xampp/htdocs/SWENG/ | Select-Object Name, LastWriteTime, @{N='Size_KB';E={[math]::Round\\($_.Length/1KB,1\\)}})",
+      "Bash(dir \"C:/xampp/htdocs/SWENG/\")",
+      "Bash(python -c \"import playwright; print\\('playwright python ok'\\)\")",
+      "Bash(npx playwright *)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost/SWENG/login.php)",
+      "Bash(py -m pip install playwright -q)",
+      "Bash(py -m playwright install chromium)",
+      "Bash(python *)",
+      "PowerShell(Get-Command *)",
+      "Bash(py fix_diagrams.py)",
+      "Bash(py *)"
+    ]
+  }
+}
